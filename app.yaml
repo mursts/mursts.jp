@@ -5,6 +5,11 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+
+- url: /robots.txt
+  static_files: robots.txt
+  upload: robots\.txt
+
 - url: /
   static_files: index.html
   upload: index\.html
